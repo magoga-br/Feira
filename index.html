@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feira Online</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body> <!-- Adicionada a tag body que estava faltando -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/feiralogo.png" alt="Logo da Feira" height="100"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobrenos.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/fale-conosco.html">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-success text-white ms-2"
+                                href="./pages/cadastro.html">Cadastro/Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main-content">
+        <div class="hero-image hero1">
+            <div class="container py-5">
+                <div class="titulo">
+                    <h1>Faça sua feira online!</h1>
+                </div>
+                <div class="subtexto">
+                    <h5>Alimentos seguros, de qualidade e de todo o Brasil direto na sua mesa</h5>
+                </div>
+
+                <div class="search-form-container my-4 formulario">
+                    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 w-100">
+                        <label class="search-label">
+                            <img src="./assets/search.png" alt="Ícone de busca">
+                            <input type="text" class="form-control" placeholder="Digite seu endereço..."
+                                style="background-color: transparent; border: none; box-shadow: none; width: 100%;">
+                        </label>
+                        <a href="./pages/produtos.html"><button class="btn btn-success" type="submit">Veja produtos
+                                próximos</button></a>
+                    </div>
+                </div>
+
+                <div class="categorias mt-4">
+                    <button class="variedades">Frutas</button>
+                    <button class="variedades">Legumes e Hortaliças</button>
+                    <button class="variedades">Grãos e Cereais</button>
+                    <button class="variedades">Ervas e Temperos</button>
+                    <button class="variedades">Orgânicos</button>
+                    <button class="variedades">Beneficiados</button>
+                    <button class="variedades">Raízes e Tubérculos</button>
+                    <button class="variedades">Castanhas e Oleoginosas</button>
+                    <button class="variedades">Novidades</button>
+                    <button class="variedades">Mais vendidos</button>
+                    <button class="variedades">Ofertas da Semana</button>
+                    <button class="variedades">Safra da Estação</button>
+                    <button class="variedades">Pronto para Consumo</button>
+                    <button class="variedades">Sem Agrotóxicos</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-4 section1">
+            <h2>
+                <i class="bi bi-cart-check"></i>
+                <span class="mb-0 titlecolor">Produtos em destaque</span>
+            </h2>
+            <a href="./pages/produtos.html" class="btn btn-outline-success">Ver todos</a>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./assets/strawberry.jpg" alt="Morangos em pilha">
+                    <div class="card-body">
+                        <h5 class="card-title">Cesta de Morangos</h5>
+                        <p class="card-text">Doces, fresquinhos e colhidos com carinho! Morangos 100% orgânicos, ideais
+                            para sobremesas ou lanches saudáveis. </p>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-auto">
+                            <span class="cart"><b>R$13,99</b></span>
+                            <a href="./pages/produtos.html" class="btn btn-sm btn-success btncard">Compre agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./assets/pumpkin.jpg" alt="Unidade de abóbora">
+                    <div class="card-body">
+                        <h5 class="card-title">Abóbora</h5>
+                        <p class="card-text">Cheia de sabor e nutrientes, a abóbora orgânica é ideal para sopas, doces
+                            ou assados. Sabor caseiro com o frescor do campo, para completar sua comida.</p>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-auto">
+                            <span class="cart"><b>R$3,49</b></span>
+                            <a href="./pages/produtos.html" class="btn btn-sm btn-success btncard">Compre agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./assets/potato.jpg" alt="Batatas em pilha">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilo de Batata</h5>
+                        <p class="card-text">Versátil e nutritiva, a batata orgânica vai do purê ao forno com sabor e
+                            qualidade de verdade — direto do campo pra sua mesa.</p>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-auto">
+                            <span class="cart"><b>R$5,79</b></span>
+                            <a href="./pages/produtos.html" class="btn btn-sm btn-success btncard">Compre agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./assets/peanut.jpg" alt="Amendoins em pilha">
+                    <div class="card-body">
+                        <h5 class="card-title">100g de Amendoim</h5>
+                        <p class="card-text">Torrado ou cru, o amendoim orgânico é energia pura! Rico em proteínas, puro
+                            e perfeito para o seu dia a dia sem agrotóxicos.</p>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-auto">
+                            <span class="cart"><b>R$2,99</b></span>
+                            <a href="./pages/produtos.html" class="btn btn-sm btn-success btncard">Compre agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-4 section1">
+            <h2>
+                <i class="bi bi-signpost-2-fill"></i>
+                <span class="mb-0 titlecolor">Mais sobre nossa iniciativa</span>
+            </h2>
+        </div>
+
+        <div class="hero-image hero2">
+            <div class="container py-5">
+                <div class="titulo2">
+                    <h2>Feira - Uma alternativa sustentável para o futuro</h2>
+                </div>
+
+                <p class="texto2"> Na<b><mark>Feira</mark></b>, conectamos quem planta com quem valoriza o que é
+                    natural. Somos uma plataforma digital criada para facilitar a <b><mark>compra e venda de alimentos e
+                            produtos orgânicos de forma limpa, segura e transparente</b></mark> — usando a
+                    tecnologia<b><mark>Blockchain</mark></b> para garantir transações confiáveis e rastreáveis.
+                    <br>
+                    <br>
+                    Acreditamos que é possível unir<b><mark>inovação e sustentabilidade</mark></b> para transformar a
+                    relação entre o campo e a cidade. Aqui, produtores anunciam diretamente seus produtos, e
+                    consumidores compram com confiança, sabendo exatamente de onde vem o que colocam na mesa.
+                    <br>
+                    <br>
+                    Nossas raízes estão na lealdade, confiabilidade e transparência. Crescemos com os pilares da
+                    tecnologia, agricultura consciente, sustentabilidade, economia justa e inovação constante. A Feira é
+                    mais do que um marketplace. É um<b><mark>compromisso com um futuro mais saudável, ético e
+                            conectado.</mark></b>
+                </p>
+
+            </div>
+
+            <a href="./pages/sobrenos.html"> <button class="btn btn-success btn3" type="submit">Saiba mais sobre
+                    nós</button> </a>
+
+        </div>
+
+
+
+        <!-- Scripts do Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+</body>
+
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h5 class="mb-3"><img src="./assets/feiralogo.png" width="70" height="70"></h5>
+                <p>Produtos frescos diretamente do produtor para sua casa.</p>
+                <div class="social-icons mb-3">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-whatsapp fs-5"></i></a>
+                </div>
+                <div class="mb-3">
+                    <h6>Baixe nosso app</h6>
+                    <div class="apps">
+                        <a href="#" class="btn btn-outline-light btn-sm"><i class="bi bi-google-play"></i> Play
+                            Store</a>
+                        <a href="#" class="btn btn-outline-light btn-sm"><i class="bi bi-apple"></i> App Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <br>
+                <h5 class="mb-3">Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Início</a></li>
+                    <li class="mb-2"><a href="./pages/produtos.html"
+                            class="text-white text-decoration-none">Produtos</a></li>
+                    <li class="mb-2"><a href="./pages/fale-conosco.html" class="text-white text-decoration-none">Fale
+                            Conosco</a></li>
+                    <li class="mb-2"><a href="./pages/sobrenos.html" class="text-white text-decoration-none">Sobre
+                            Nós</a></li>
+                    <li class="mb-2"><a href="./pages/cadastro.html"
+                            class="text-white text-decoration-none">Cadastro/Login</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <br>
+                <h5 class="mb-3">Ajuda</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Entregas</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Pagamentos</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Trocas e Devoluções</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <h5 class="mb-3">Newsletter</h5>
+                <p>Assine para receber ofertas exclusivas e novidades.</p>
+                <div class="mb-3">
+                    <input type="email" class="form-control mb-2" placeholder="Seu e-mail">
+                    <button class="btn btn-success w-100">Assinar</button>
+                </div>
+                <h6>Formas de pagamento</h6>
+                <div class="Pagamentos">
+                    <i class="bi bi-credit-card fs-4"></i>
+                    <i class="bi bi-paypal fs-4"></i>
+                    <i class="bi bi-cash-coin fs-4"></i>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="mb-0">© 2025 Feira. Todos os direitos reservados.</p>
+            </div>
+            <div class="col-md-9 text-md-end">
+                <a href="#" class="text-white text-decoration-none me-3">Termos de uso</a>
+                <a href="#" class="text-white text-decoration-none">Política de privacidade</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
