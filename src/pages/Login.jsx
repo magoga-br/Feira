@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "/oldcss/Login.css";
 
-function Login() {
+export default function Login() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const [lembrar, setLembrar] = useState(false);
@@ -95,4 +95,3 @@ function Login() {
   );
 }
 
-export default Login;

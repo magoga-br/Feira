@@ -6,13 +6,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Index from "./pages/Index";
-
-import SobreNos from "./pages/SobreNos";
-import FaleConosco from "./pages/Fale-conosco";
+import Produtos from "./pages/produtos";
+import SobreNos from "./pages/sobreNos";
+import FaleConosco from "./pages/faleConosco";
 import Cadastro from "./pages/Cadastro";
 import Login from "./pages/Login";
 
-function App() {
+export default function App() {
 
   return (
     <Router>
@@ -21,7 +21,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Index />} />
-
+        <Route path="/produtos" element={<Produtos />} />
         <Route path="/sobrenos" element={<SobreNos />} />
         <Route path="/fale-conosco" element={<FaleConosco />} />
         <Route path="/Cadastro" element={<Cadastro />} />
@@ -34,4 +34,3 @@ function App() {
   )
 }
 
-export default App
