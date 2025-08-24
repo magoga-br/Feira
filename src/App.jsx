@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 import Index from "./pages/Index";
 import Produtos from "./pages/produtos";
-import SobreNos from "./pages/sobreNos";
+import SobreNos from "./pages/sobrenos";
 import FaleConosco from "./pages/faleConosco";
 import Cadastro from "./pages/Cadastro";
 import Login from "./pages/Login";
