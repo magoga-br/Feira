@@ -1,13 +1,13 @@
-import logo from "../assets/feiralogo.png";
+import Logo from "/images/feiralogo.png";
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-dark text-white py-5">
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-4">
             <h5 className="mb-3">
-              <img src={logo} width="70" height="70" alt="Logo" />
+              <img src={Logo} width="70" height="70" alt="Logo" />
             </h5>
             <p>Produtos frescos diretamente do produtor para sua casa.</p>
             <div className="social-icons mb-3">
@@ -75,5 +75,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

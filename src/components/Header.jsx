@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/feiralogo.png";
+import Logo from "/images/feiralogo.png";
 
-function Header() {
+export default function Header() {
   return (
     <header className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src={logo}
+              src={Logo}
               alt="Logo da Feira"
               height="100"
               className="d-inline-block align-text-top"
@@ -49,5 +49,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
