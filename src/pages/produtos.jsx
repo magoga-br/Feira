@@ -1,15 +1,15 @@
-import morango from "/images/strawberry.jpg";
-import batata from "/images/potato.jpg"
-import abobora from "/images/pumpkin.jpg"
-import peanut from "/images/peanut.jpg"
-import endive from "/images/endive.jpg"
-import banana from "/images/banana.jpg"
-import tomato from "/images/tomato.jpg"
-import broccoli from "/images/broccoli.jpg"
-import pineapple from "/images/pineapple.jpg"
-import lettuce from "/images/lettuce.jpg"
-import beetroot from "/images/beetroot.jpg"
-import cucumber from "/images/cucumber.jpg"
+import morango from "/public/images/strawberry.jpg";
+import batata from "/public/images/potato.jpg"
+import abobora from "/public/images/pumpkin.jpg"
+import peanut from "/public/images/peanut.jpg"
+import endive from "/public/images/endive.jpg"
+import banana from "/public/images/banana.jpg"
+import tomato from "/public/images/tomato.jpg"
+import broccoli from "/public/images/broccoli.jpg"
+import pineapple from "/public/images/pineapple.jpg"
+import lettuce from "/public/images/lettuce.jpg"
+import beetroot from "/public/images/beetroot.jpg"
+import cucumber from "/public/images/cucumber.jpg"
 
 export default function Produtos() {
   return (
