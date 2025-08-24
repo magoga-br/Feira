@@ -6,12 +6,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Index from "./pages/Index";
-import Produtos from "./pages/Produtos.jsx";
-import SobreNos from "./pages/SobreNos.jsx";
-import FaleConosco from "./pages/Fale-conosco.jsx";
-import Cadastro from "./pages/Cadastro.jsx";
-import Login from "./pages/Login.jsx";
-
+import Produtos from "./pages/Produtos";
+import SobreNos from "./pages/SobreNos";
+import FaleConosco from "./pages/Fale-conosco";
+import Cadastro from "./pages/Cadastro";
+import Login from "./pages/Login";
 
 function App() {
 
