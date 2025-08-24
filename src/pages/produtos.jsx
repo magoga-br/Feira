@@ -1,4 +1,4 @@
-import morango from "../assets/strawberry.jpg";
+import morango from "../strawberry.jpg";
 import batata from "../assets/potato.jpg"
 import abobora from "../assets/pumpkin.jpg"
 import peanut from "../assets/peanut.jpg"
@@ -11,7 +11,7 @@ import lettuce from "../assets/lettuce.jpg"
 import beetroot from "../assets/beetroot.jpg"
 import cucumber from "../assets/cucumber.jpg"
 
-function Produtos() {
+export default function Produtos() {
   return (
   <div>
       <div className="container-fluid">
@@ -145,15 +145,6 @@ function Produtos() {
             </div>
           </div>
      
-     
-
-
-
-
-
-
-
-
 
 
                 <div className="col-xl-10 col-lg-8 col-md-8 col-sm-12">
@@ -324,5 +315,3 @@ function Produtos() {
 
   )
 }
-
-export default Produtos;
