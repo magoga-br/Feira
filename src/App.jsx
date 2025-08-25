@@ -10,7 +10,7 @@ import Produtos from "./pages/produtos";
 import SobreNos from "./pages/sobrenos";
 import FaleConosco from "./pages/faleConosco";
 import Cadastro from "./pages/Cadastro";
-import Login from "./pages/Login";
+import Login from "./pages/loginpage";
 
 export default function App() {
 
