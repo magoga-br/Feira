@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import Produtos from "./Pages/Produtos"
 import Login from "./Pages/Login";
 import Index from "./Pages/Index";
+import Cadastro from "./Pages/Cadastro";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/produtos" element={<Produtos />} />
          <Route path="/" element={<Index />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
 
       <Footer />
