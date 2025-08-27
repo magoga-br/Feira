@@ -82,7 +82,7 @@ function Login() {
                 <div className="text-center mt-4">
                   <p className="text-muted">
                     Não tem uma conta?{" "}
-                    <a href="cadastro.html" className="text-success">
+                    <a href="cadastro.jsx" className="text-success">
                       Cadastre-se
                     </a>
                   </p>
