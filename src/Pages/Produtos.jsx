@@ -72,7 +72,7 @@ function Produtos() {
             </div>
 
             {/* Produtos */}
-            <div className="col-xl-10 col-lg-8 col-md-8 col-sm-12">
+            <div className="col-xl-10 col-lg-8 col-md-8 col-sm-1">
               <div className="row g-4">
                 {[
                   { img: morango, alt: "Morangos em pilha", title: "Cesta de Morangos", text: "Doces, fresquinhos e colhidos com carinho! Morangos 100% orgânicos, ideais para sobremesas ou lanches saudáveis.", price: "R$13,99" },
