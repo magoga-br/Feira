@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/feiralogo.png"; // Importa a imagem corretamente
 
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src={logo}
+              src="/images/feiralogo.png"
               alt="Logo da Feira"
               height="100"
               className="d-inline-block align-text-top"
