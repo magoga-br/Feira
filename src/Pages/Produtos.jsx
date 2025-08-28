@@ -71,55 +71,45 @@ function Produtos() {
               </div>
             </div>
 
-            {/* Produtos */}
-            <div className="col-xl-10 col-lg-8 col-md-8 col-sm-1">
-              <div className="row g-4">
-                {[
-                  { img: morango, alt: "Morangos em pilha", title: "Cesta de Morangos", text: "Doces, fresquinhos e colhidos com carinho! Morangos 100% orgânicos, ideais para sobremesas ou lanches saudáveis.", price: "R$13,99" },
-                  { img: batata, alt: "Batatas em pilha", title: "Kilo da Batata", text: "Versátil e nutritiva, a batata orgânica vai do purê ao forno com sabor e qualidade de verdade — direto do campo pra sua mesa.", price: "R$5,79" },
-                  { img: abobora, alt: "Abóbora", title: "Abóbora", text: "Cheia de sabor e nutrientes, a abóbora orgânica é ideal para sopas, doces ou assados. Sabor caseiro com o frescor do campo.", price: "R$3,49" },
-                  { img: peanut, alt: "Amendoins em pilha", title: "100g de Amendoim", text: "Torrado ou cru, o amendoim orgânico é energia pura! Rico em proteínas, puro e perfeito para o seu dia a dia sem agrotóxicos.", price: "R$2,99" },
-                  { img: endive, alt: "Escarola", title: "Escarola", text: "Refrescante e levemente amarga, a escarola orgânica dá um toque especial às saladas e refogados.", price: "R$3,99" },
-                  { img: banana, alt: "Banana", title: "Banana", text: "Bananas nanica maduras e deliciosas. Garanta já a sua dúzia!", price: "R$9,99" },
-                  { img: tomato, alt: "Tomate Orgânico", title: "Tomate Orgânico", text: "Vermelho vibrante e cheio de sabor, ideal para saladas, molhos e muito mais. Colhido sem agrotóxicos.", price: "R$6,49" },
-                  { img: broccoli, alt: "Brócolis", title: "Brócolis", text: "Crocante, nutritivo e 100% orgânico. Vai bem no vapor, no arroz ou refogado com alho!", price: "R$4,89" },
-                  { img: pineapple, alt: "Abacaxi", title: "Abacaxi", text: "Suculento e docinho! Perfeito para sucos, sobremesas ou para comer puro e gelado.", price: "R$7,99" },
-                  { img: lettuce, alt: "Alface Crespa", title: "Alface Crespa", text: "Folhas fresquinhas, crocantes e sem veneno. Perfeita para saladas mais leves e saudáveis!", price: "R$2,49" },
-                  { img: beetroot, alt: "Beterraba", title: "Beterraba", text: "Rica em ferro e super saborosa. Ideal para saladas, sucos ou sopas naturais.", price: "R$3,49" },
-                  { img: cucumber, alt: "Pepino Japonês", title: "Pepino Japonês", text: "Refrescante e crocante, perfeito para saladas ou conservas! Orgânico e cheio de frescor.", price: "R$4,29" },
-                ].map((p, i) => (
-                  <div className="col-md-3" key={i}>
-                    <div className="card h-100" style={{ maxWidth: "300px", marginLeft: "auto", marginRight: "auto" }}>
-                      <img className="card-img-top img-fluid" src={p.img} alt={p.alt} />
-                      <div className="card-body d-flex flex-column">
-                        <h5 className="card-title">{p.title}</h5>
-                        <p className="card-text">{p.text}</p>
-                        <div className="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-auto">
-                          <span className="valor_venda"><b>{p.price}</b></span>
-                          <a href="#" className="btn btn-sm btn-success btncard">Compre agora</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+{/* Produtos */}
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-12">
+              <div className="row g-4 ">
+                {[
+                  { img: morango, alt: "Morangos em pilha", title: "Cesta de Morangos", text: "Doces, fresquinhos e colhidos com carinho! Morangos 100% orgânicos, ideais para sobremesas ou lanches saudáveis.", price: "R$13,99" },
+                  { img: batata, alt: "Batatas em pilha", title: "Kilo da Batata", text: "Versátil e nutritiva, a batata orgânica vai do purê ao forno com sabor e qualidade de verdade — direto do campo pra sua mesa.", price: "R$5,79" },
+                  { img: abobora, alt: "Abóbora", title: "Abóbora", text: "Cheia de sabor e nutrientes, a abóbora orgânica é ideal para sopas, doces ou assados. Sabor caseiro com o frescor do campo, para completar sua comida.", price: "R$3,49" },
+                  { img: peanut, alt: "Amendoins em pilha", title: "100g de Amendoim", text: "Torrado ou cru, o amendoim orgânico é energia pura! Rico em proteínas, puro e perfeito para o seu dia a dia sem agrotóxicos.", price: "R$2,99" },
+                  { img: endive, alt: "Escarola", title: "Escarola", text: "Refrescante e levemente amarga, a escarola orgânica dá um toque especial às saladas e refogados com sabor e saúde.", price: "R$3,99" },
+                  { img: banana, alt: "Banana", title: "Banana", text: "Bananas nanica maduras e deliciosas. Garanta já a sua dúzia!", price: "R$9,99" },
+                  { img: tomato, alt: "Tomate Orgânico", title: "Tomate Orgânico", text: "Vermelho vibrante e cheio de sabor, ideal para saladas, molhos e muito mais. Colhido sem agrotóxicos.", price: "R$6,49" },
+                  { img: broccoli, alt: "Brócolis", title: "Brócolis", text: "Crocante, nutritivo e 100% orgânico. Vai bem no vapor, no arroz ou refogado com alho!", price: "R$4,89" },
+                  { img: pineapple, alt: "Abacaxi", title: "Abacaxi", text: "Suculento e docinho! Perfeito para sucos, sobremesas ou para comer puro e gelado.", price: "R$7,99" },
+                  { img: lettuce, alt: "Alface Crespa", title: "Alface Crespa", text: "Folhas fresquinhas, crocantes e sem veneno. Perfeita para saladas mais leves e saudáveis!", price: "R$2,49" },
+                  { img: beetroot, alt: "Beterraba", title: "Beterraba", text: "Rica em ferro e super saborosa. Ideal para saladas, sucos ou sopas naturais.", price: "R$3,49" },
+                  { img: cucumber, alt: "Pepino Japonês", title: "Pepino Japonês", text: "Refrescante e crocante, perfeito para saladas ou conservas! Orgânico e cheio de frescor.", price: "R$4,29" },
+                ].map((p, i) => (
+                  <div className="col-md-3" key={i}>
+                    <div className="card h-100" style={{ maxWidth: "300px", marginLeft: "auto", marginRight: "auto" }}>
+                      <img className="card-img-top img-fluid rounded-top" src={p.img} alt={p.alt} />
+                      <div className="card-body d-flex flex-column">
+                        <h5 className="card-title">{p.title}</h5>
+                        <p className="card-text">{p.text}</p>
+                        <div className="d-flex justify-content-between align-items-center mt-auto">
+                          <div className="valor_venda fw-bold">{p.price}</div>
+                            <a href="#" className="btn btn-sm btn-success btncard">Compre agora</a>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
         <br /><br /><br /><br />
       </main>
 
-      {/* Footer */}
-      <footer className="bg-dark text-white py-5">
-        <div className="container">
-          <div className="row g-4">
-            <div className="col-lg-4">
-              <h5 className="mb-3"><img src={feiralogo} width="70" height="70" alt="Logo Feira" /></h5>
-              <p>Feira Online - Produtos frescos, direto do campo para a sua mesa.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+
     </>
   );
 }

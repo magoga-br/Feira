@@ -178,6 +178,7 @@ main i {
     background-color: #52a435;
     padding: 8px 24px;
     border-radius: 24px;
+    white-space: nowrap;
 }
 
 .card-title{
@@ -405,4 +406,17 @@ mark{
   box-shadow: none;
   transition: none;
   border-radius: 10px;
+}
+
+.valor_venda {
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.price-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem; 
+  flex-wrap: nowrap;
 }
