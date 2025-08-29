@@ -15,6 +15,7 @@ import Produtos from "./Pages/Produtos"
 import Login from "./Pages/Login";
 import Index from "./Pages/Index";
 import Cadastro from "./Pages/Cadastro";
+import Faleconosco from "./Pages/fale-conosco"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
          <Route path="/" element={<Index />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/fale-conosco" element={<Faleconosco />} />
       </Routes>
 
       <Footer />
