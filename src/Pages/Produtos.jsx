@@ -250,16 +250,16 @@ function Produtos() {
                     <span
                       key={item.value}
                       style={{ cursor: "pointer" }}
-                      onClick={() => handleFrutaChange(item.value)}
                     >
                       <input
+                        id={item.value}
                         type="checkbox"
                         value={item.value}
                         checked={selectedFrutas.includes(item.value)}
                         onChange={() => handleFrutaChange(item.value)}
                         style={{ marginRight: "10px" }}
                       />
-                      <label style={{ cursor: "pointer" }}>{item.label}</label>
+                      <label for={item.value} style={{ cursor: "pointer" }}>{item.label}</label>
                       <br />
                     </span>
                   ))}
@@ -282,16 +282,16 @@ function Produtos() {
                     <span
                       key={item.value}
                       style={{ cursor: "pointer" }}
-                      onClick={() => handleLegumeChange(item.value)}
                     >
                       <input
+                        id={item.value}
                         type="checkbox"
                         value={item.value}
                         checked={selectedLegumes.includes(item.value)}
                         onChange={() => handleLegumeChange(item.value)}
                         style={{ marginRight: "10px" }}
                       />
-                      <label style={{ cursor: "pointer" }}>{item.label}</label>
+                      <label for={item.value} style={{ cursor: "pointer" }}>{item.label}</label>
                       <br />
                     </span>
                   ))}
@@ -312,16 +312,16 @@ function Produtos() {
                     <span
                       key={item.value}
                       style={{ cursor: "pointer" }}
-                      onClick={() => handleAgroChange(item.value)}
                     >
                       <input
+                        id={item.value}
                         type="checkbox"
                         value={item.value}
                         checked={selectedAgro.includes(item.value)}
                         onChange={() => handleAgroChange(item.value)}
                         style={{ marginRight: "10px" }}
                       />
-                      <label style={{ cursor: "pointer" }}>{item.label}</label>
+                      <label for={item.value} style={{ cursor: "pointer" }}>{item.label}</label>
                       <br />
                     </span>
                   ))}
@@ -345,16 +345,16 @@ function Produtos() {
                     <span
                       key={item.value}
                       style={{ cursor: "pointer" }}
-                      onClick={() => handleRegiaoChange(item.value)}
                     >
                       <input
+                        id={item.value}
                         type="checkbox"
                         value={item.value}
                         checked={selectedRegiao.includes(item.value)}
                         onChange={() => handleRegiaoChange(item.value)}
                         style={{ marginRight: "10px" }}
                       />
-                      <label style={{ cursor: "pointer" }}>{item.label}</label>
+                      <label for={item.value} style={{ cursor: "pointer" }}>{item.label}</label>
                       <br />
                     </span>
                   ))}

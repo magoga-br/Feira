@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
-import logo from "../assets/feiralogo.png"; // Importa a imagem corretamente
+import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/feiralogo.png";
 
 function Header() {
+  const location = useLocation(); // Hook para obter a rota atual
+
   return (
     <header className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,19 +30,46 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/">Início</Link>
+                <Link
+                  className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
+                  to="/"
+                >
+                  Início
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/produtos">Produtos</Link>
+                <Link
+                  className={`nav-link ${location.pathname === "/produtos" ? "active" : ""}`}
+                  to="/produtos"
+                >
+                  Produtos
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/sobrenos">Sobre Nós</Link>
+                <Link
+                  className={`nav-link ${location.pathname === "/sobrenos" ? "active" : ""}`}
+                  to="/sobrenos"
+                >
+                  Sobre Nós
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/fale-conosco">Fale Conosco</Link>
+                <Link
+                  className={`nav-link ${location.pathname === "/fale-conosco" ? "active" : ""}`}
+                  to="/fale-conosco"
+                >
+                  Fale Conosco
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link btn btn-success text-white ms-2" to="/login">Login</Link>
+                <Link
+                  className={`nav-link btn btn-success text-white ms-2 ${
+                    location.pathname === "/login" ? "active" : ""
+                  }`}
+                  to="/login"
+                >
+                  Login
+                </Link>
               </li>
             </ul>
           </div>
