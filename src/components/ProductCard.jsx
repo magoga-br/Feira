@@ -10,7 +10,7 @@ function ProductCard({ image, title, description, price }) {
           <p className="card-text">{description}</p>
           <div className="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-auto">
             <span className="cart"><b>{price}</b></span>
-            <Link to="/pages/produtos.html" className="btn btn-sm btn-success btncard">
+            <Link to="/produtos" className="btn btn-sm btn-success btncard">
               Compre agora
             </Link>
           </div>

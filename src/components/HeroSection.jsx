@@ -23,7 +23,7 @@ function HeroSection() {
               <img src={searchIcon} alt="Ícone de busca" />
               <input type="text" className="form-control" placeholder="Digite seu endereço..." style={{backgroundColor: 'transparent', border: 'none', boxShadow: 'none', width: '100%'}} />
             </label>
-            <Link to="/pages/produtos.html"><button className="btn btn-success" type="submit">Veja produtos próximos</button></Link>
+            <Link to="/produtos"><button className="btn btn-success" type="submit">Veja produtos próximos</button></Link>
           </div>
         </div>
 

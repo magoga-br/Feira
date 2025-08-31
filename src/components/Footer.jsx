@@ -28,11 +28,11 @@ function Footer() {
             <br />
             <h5 className="mb-3">Links</h5>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="/index.html" className="text-white text-decoration-none">Início</a></li>
-              <li className="mb-2"><a href="../pages/produtos.html" className="text-white text-decoration-none">Produtos</a></li>
-              <li className="mb-2"><a href="../pages/faleconosco.html" className="text-white text-decoration-none">Fale Conosco</a></li>
-              <li className="mb-2"><a href="../pages/sobrenos.html" className="text-white text-decoration-none">Sobre Nós</a></li>
-              <li className="mb-2"><a href="../pages/cadastro.html" className="text-white text-decoration-none">Cadastro/Login</a></li>
+              <li className="mb-2"><a href="/" className="text-white text-decoration-none">Início</a></li>
+              <li className="mb-2"><a href="/produtos" className="text-white text-decoration-none">Produtos</a></li>
+              <li className="mb-2"><a href="/fale-conosco" className="text-white text-decoration-none">Fale Conosco</a></li>
+              <li className="mb-2"><a href="/sobrenos" className="text-white text-decoration-none">Sobre Nós</a></li>
+              <li className="mb-2"><a href="/login" className="text-white text-decoration-none">Cadastro/Login</a></li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-4">

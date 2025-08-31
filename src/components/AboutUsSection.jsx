@@ -55,7 +55,7 @@ function AboutUsSection() {
               </mark>
             </b>
           </p>
-          <Link to="/pages/sobrenos.html" className="btn btn-success btn3">
+          <Link to="/sobrenos" className="btn btn-success btn3">
             Saiba mais sobre nós
           </Link>
         </div>
