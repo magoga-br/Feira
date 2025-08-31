@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useState } from "react";
 
@@ -172,8 +173,13 @@ export default function FaleConosco() {
                         value={formData.mensagem}
                         onChange={handleChange}
                         required
+                      minLength={30}
+                      maxLength={500}   // <-- limite aqui
                       ></textarea>
-                    </div>
+                     <small className="text-muted">
+                    {formData.mensagem.length}/500 caracteres
+                    </small>
+                  </div>
 
                     <div className="col-12">
                       <button type="submit" className="btn btn-success">
