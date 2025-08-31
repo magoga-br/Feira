@@ -1,0 +1,32 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form-cadastro{
+  display: none;
+}
+
+.progress{
+  height: 8px;
+}
+
+.progress-bar{
+  width: 50%;
+}
+
+.passo2{
+  display: none;
+}
+
+.campos-agricultor{
+  display: none;
+}
+
+.mb-4{
+  color: #1a3a2f;
+}
+
+.fas{
+  color: #52a435;
+}
+

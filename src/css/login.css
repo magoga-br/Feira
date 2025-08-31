@@ -1,0 +1,158 @@
+/* Custom styles for FEIRA */
+
+:root {
+    --feira-green: #2e7d32;
+    --feira-light-green: #e8f5e9;
+    --feira-dark-green: #1b5e20;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Text colors */
+.text-success {
+    color: var(--feira-green) !important;
+}
+
+/* Background colors */
+.bg-success {
+    background-color: var(--feira-green) !important;
+}
+
+.bg-success.bg-opacity-10 {
+    background-color: var(--feira-light-green) !important;
+}
+
+/* Button styles */
+.btn-success {
+    background-color: var(--feira-green) !important;
+    border-color: var(--feira-green) !important;
+}
+
+.btn-success:hover, 
+.btn-success:focus {
+    background-color: var(--feira-dark-green) !important;
+    border-color: var(--feira-dark-green) !important;
+}
+
+.btn-outline-success {
+    color: var(--feira-green) !important;
+    border-color: var(--feira-green) !important;
+}
+
+.btn-outline-success:hover {
+    background-color: var(--feira-green) !important;
+    color: white !important;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.cursor-pointer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Progress bar */
+.progress-bar {
+    background-color: var(--feira-green) !important;
+}
+
+/* Form focus states */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--feira-green);
+    box-shadow: 0 0 0 0.25rem rgba(46, 125, 50, 0.25);
+}
+
+/* Custom spacing */
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.gap-3 {
+    gap: 1rem;
+}
+
+.gap-4 {
+    gap: 1.5rem;
+}
+
+/* Footer links hover effect */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--feira-green) !important;
+}
+
+body {
+  font-family: "Outfit", sans-serif !important;
+}
+
+.btn-success {
+  background-color: #52a435 !important;
+  border-color: #52a435 !important;
+}
+.btn-success:hover {
+  background-color: #357a1c !important;
+  border-color: #357a1c !important;
+}
+.text-success {
+  color: #52a435 !important;
+}
+a.text-success {
+  text-decoration: none;
+}
+
+/* força a fonte só na página de login */
+.page-login, .page-login * {
+  font-family: "Outfit", sans-serif !important;
+}
+
+/* Neutralizações específicas do Login */
+.page-login .container { text-align: initial; }   /* desfaz magoga.css */
+.page-login .mb-4 { color: inherit; }             /* desfaz cadastro.css */
+
+/* Verde fixo */
+.page-login .btn-success {
+  background-color: #52a435 !important;
+  border-color: #52a435 !important;
+}
+.page-login .btn-success:hover {
+  background-color: #357a1c !important;
+  border-color: #357a1c !important;
+}
+.page-login .text-success { color: #52a435 !important; }
+.page-login a.text-success { text-decoration: none; }
+
+
+.page-login, .page-login * {
+  font-family: "Outfit", sans-serif !important;
+}
+
+/* Neutralizações específicas do Login */
+.page-login .container { text-align: initial; } /* desfaz magoga.css */
+.page-login .mb-4 { color: inherit; }           /* desfaz cadastro.css */
+
+/* Verde fixo */
+.page-login .btn-success {
+  background-color: #52a435 !important;
+  border-color: #52a435 !important;
+}
+.page-login .btn-success:hover {
+  background-color: #357a1c !important;
+  border-color: #357a1c !important;
+}
+.page-login .text-success { color: #52a435 !important; }
+.page-login a.text-success { text-decoration: none; }
+
+/* Fonte igual ao HTML original */
+.page-login, .page-login * {
+  font-family: "Outfit", sans-serif !important;
+}
