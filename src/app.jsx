@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import Produtos from "./Pages/Produtos"
 import Login from "./Pages/Login";
 import Index from "./Pages/Index";
+import Sobrenos from "./Pages/sobrenos";
 import Cadastro from "./Pages/Cadastro";
 import Faleconosco from "./Pages/fale-conosco"
 
@@ -28,6 +29,7 @@ function App() {
          <Route path="/" element={<Index />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/sobrenos" element={<Sobrenos />} />
         <Route path="/fale-conosco" element={<Faleconosco />} />
       </Routes>
 
