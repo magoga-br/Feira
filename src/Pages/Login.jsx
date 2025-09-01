@@ -13,7 +13,7 @@ function Login() {
       return;
     }
     alert("Login realizado com sucesso!");
-    window.location.href = "index.html";
+    window.location.href = "/";
   };
 
   return (
