@@ -9,14 +9,14 @@ import "./css/login.css";   // <- último, para sobrescrever
 
 
 // só depois os extras
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Produtos from "./Pages/Produtos"
-import Login from "./Pages/Login";
-import Index from "./Pages/Index";
-import Sobrenos from "./Pages/sobrenos";
-import Cadastro from "./Pages/Cadastro";
-import Faleconosco from "./Pages/fale-conosco"
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Produtos from "./Pages/Produtos.jsx"
+import Login from "./Pages/Login.jsx";
+import Index from "./Pages/Index.jsx";
+import Sobrenos from "./Pages/sobrenos.jsx";
+import Cadastro from "./Pages/cadastro.jsx";
+import Faleconosco from "./Pages/fale-conosco.jsx"
 
 
 function App() {
