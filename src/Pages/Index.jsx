@@ -11,7 +11,7 @@ function HomePage() {
         <HeroSection />
         <ProductSection />
         <AboutUsSection />
-        <VideoSection /> {/* ✅ Aqui entra a nova seção */}
+        <VideoSection />
       </div>
     </div>
   );
