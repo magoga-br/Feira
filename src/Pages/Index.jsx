@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import ProductSection from '../components/ProductSection';
 import AboutUsSection from '../components/AboutUsSection';
+import VideoSection from "../components/VideoSection.jsx";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
         <HeroSection />
         <ProductSection />
         <AboutUsSection />
+        <VideoSection /> {/* ✅ Aqui entra a nova seção */}
       </div>
     </div>
   );
